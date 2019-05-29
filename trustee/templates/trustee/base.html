@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+{%load static %}
+<html lang="en">
+      <head>
+          <meta charset="UTF-8">
+    <title></title>
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link href="/assets/materialize.css?body=1" media="all" rel="stylesheet" type="text/css" />
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css">
+	   <link media="screen,projection"/>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <style>
+html,body{
+          height:100%;
+          position: relative;
+                  }
+        h1{
+          font-size: 3rem;
+        }
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.preloader-background p {
+    padding-top:70px;
+    margin-left: -40px;
+    opacity: 0.8;
+  }
+// ADD BLINKING TEXT CLASS
+.blinking {
+	animation: blinker 0.5s linear infinite;
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+        h2{
+         font-size: 2.4em
+        }
+        h3{
+          font-size: 1.8rem;
+        }
+        h4{
+          font-size: 1.1rem;
+        }
+        p{
+          font-size: 2.4rem;
+          font-size: 1rem;
+        }
+        a{
+          color: black;
+        }
+        nav{
+          background-color:grey !important;
+        }
+ .side-nav li a{
+color:green !important;
+        }
+        .side-nav li:hover{
+          background-color: tomato;
+         }
+ul#mobile-demo.side-nav{
+    padding-top:50px;
+    }
+img#logo.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: 100%;
+    margin-left:30px;
+}
+.title{
+      font-size:13px;
+}
+        button{
+           background-color:white;
+           border-radius:15px;
+           font-size:15px;
+           padding: 5px 30px;
+           color:green;
+        }
+               .main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 170px; /* height of your footer */
+}
+.page-footer{
+  position: absolute;
+  bottom: 0;
+  padding-top:0;
+  width: 100%;
+  background-color: grey;
+}
+.container {
+    width: 90%;
+}
+ @media screen and (min-width:1000px) {
+.mini-nav ul li a {
+    font-size: 14px;
+    padding: 6px;
+    color: white;
+}
+}
+        @media screen and (max-width:800px) {
+          html{
+          font-size: 12px;
+        }
+        }
+        @media screen and (max-width:700px) {
+.nav-content li{
+  padding:0px !important;
+  font-size: 11px;
+}
+.side-nav{
+           background-color: whitesmoke;
+           opacity: 1;
+        }
+
+.nav-content li a{
+  padding:0px !important;
+  font-size: 11px;
+        }
+      }
+ @media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px;  */
+       img#logo.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height:100%;
+    margin-left: 0px;
+}
+.navbar-text-mobile{
+display:inline;
+}
+    }
+   @media screen and (min-width:800px) {
+}
+ @media only screen and (device-width: 768px) {
+       /* default iPad screens */
+        img#logo.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    }
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1023px) and (orientation:portrait) {
+      /* For portrait layouts only */
+      img#logo.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+}
+      </style>
+
+    <title>{% block title %}PATS{% endblock %}</title>
+  </head>
+<body>
+<div class="main-container">
+
+<div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+          {% load static %}
+          <a href="{% url 'home' %}" title="Sol Education Consultancy"><img class="responsive-img" id="logo" src= "{% static "images/logo.PNG" %}"/></a>
+        <a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+             <li><a href="{% url 'home' %}">Home</a></li>
+             <li><a href="{% url 'home' %}">Tution For 11th and 12th class</a></li>
+             <li><a href="{% url 'home' %}">About Us</a></li>
+             <li><a href="{% url 'quiz' %}">Online Quiz</a></li>
+             <li><a href="{% url 'contact' %}">Contact Us</a></li>
+
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+
+           <li><a href="{% url 'home' %}">Home</a></li>
+             <li><a href="{% url 'home' %}">Tution For 11th and 12th class</a></li>
+             <li><a href="{% url 'home' %}">About Us</a></li>
+             <li><a href="{% url 'quiz' %}">Online Quiz</a></li>
+             <li><a href="{% url 'contact' %}">Contact Us</a></li>
+
+        </ul>
+      </div>
+    </nav>
+    </div>
+
+    <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+<!-- Preloader and it's background. -->
+<div class="preloader-background">
+<div class="preloader-wrapper small active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-red">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  <p class="blinking">Loading</p>
+</div>
+       <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text"><b>Lecturing</b></h5>
+                <p class="grey-text text-lighten-4">Get In Touch Banglore,India</p>
+                  <p class="grey-text text-lighten-4">Email : info@example.com</p>
+                  <p class="grey-text text-lighten-4">Phone : +91 9949215264</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                  <br class="white-text"><b>NewsLetter</b></h5>
+                   <p class="grey-text text-lighten-4">PATS INternational Student Counseel</p>
+                <ul>
+                    <!--Facebook icon-->
+<a href="https://facebook.com/flashissue" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/ueBIjxRoTBuYR6XWW1iO_v3qVW5nRUq5VZF9RQXi2_twitter.png" /> </a>&nbsp; &nbsp; &nbsp;
+<!--Google+ icon-->
+<a href="http://plus.google.com" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/gHd2XoyiQbKBqljm7bzg_63j3xtd7SX28TTMeOSfZ_google.png" /> </a>&nbsp; &nbsp;&nbsp;
+<!--Twitter icon-->
+<a href="https://facebook.com/14221A0565" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/MsIJsIsDT9WLAxxH4aIK_OgdHV3vxSR2737LGd8cq_facebook.png" /> </a>&nbsp; &nbsp;&nbsp;
+<!--Linkedin icon-->
+<a href="http://pinterest.com" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/b8Xt2lN8TCKhilmoHXGW_TCjqF6FgS86WoWzUOQCh_pinterest.png" /> </a>&nbsp; &nbsp;&nbsp;
+
+                 </ul>
+              </div>
+            </div>
+          </div>
+          <!--div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div-->
+</footer>
+</div>
+  </body>
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+ <script>
+$(document).ready(function() {
+    $('select').material_select();
+  });
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+   $(document).ready(function () {
+        $(".button-collapse").sideNav();
+         $('.button-collapse').click(removeOverlay);
+        closeOnClick: true
+      });
+function removeOverlay() {
+  $('div[id^=sidenav-overlay]').remove();
+}
+$(document).ready(function(){
+  $('.carousel').carousel(
+  {
+    dist: 0,
+    padding: 0,
+    fullWidth: true,
+    indicators: true,
+    duration: 100,
+  }
+  );
+});
+  autoplay()
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+document.addEventListener("DOMContentLoaded", function(){
+	$('.preloader-background').delay(1700).fadeOut('slow');
+	$('.preloader-wrapper')
+		.delay(1700)
+		.fadeOut();
+});
+var mb = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(mb,{
+      })
+ </script>
+</html>
+
+

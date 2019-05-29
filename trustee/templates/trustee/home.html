@@ -1,0 +1,263 @@
+{% extends 'trustee/base.html' %}
+{% block content %}
+
+<style>
+.costumer-satis{
+                height:400px;
+                display:grid;
+                {% load static %}
+                background-image: url("{% static "images/home.jpg" %}");
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+              }
+.cs-texts h2{
+              padding-top:50px;
+              padding-left:30px;
+              color: whitesmoke;
+              font-style:italic;
+            }
+            .cs-texts p{
+              padding-left:30px;
+              color: blue;
+              font-style:italic;
+            }
+            .cs-texts1 h4{
+
+              padding-left:30px;
+              color: Green;
+              font-style:italic;
+            }
+
+.grid{
+     background-color:grey;
+}
+ @media only screen and (max-device-width: 480px) {
+.cs-texts h2 {
+    padding-top: 168px;
+    padding-right: 10px;
+    font-style: italic;
+}
+.row .col.s8 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+.row .col.s4 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+div.row .col.s3 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+}
+@media only screen and (max-device-width: 768px) {
+.row .col.s3 {
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+   }
+
+</style>
+
+<div class="costumer-satis">
+     <div class="cs-texts"><h2> Discover New<br>
+      Learning<br>Possibilities</h2>
+         <p>Discover your true potential to know more efficently.Clear your doubts<br>
+         and concepts by commmanding your subjects and topics so that you can<br>
+         not only score good marks but also learn deeply.</p>
+</div>
+</div>
+ <div class="cs-texts1"><h4> Why Parvaz Academy Tutorial Services</h4>
+ </div>
+<hr style="width:80%;">
+<div class="grid">
+                 <center><h4 style="padding-top:20px;font-size:13px;color:white;">You may find other tutorials points
+                 across the city.But there is something about us which put us<br> aside the crowd</h4></center>
+             <div class="row">
+    <div class="col s4">
+      <div class="card whitesmoke lighten-5">
+        <div class="card-content">
+         <center>
+              <img src="{% static "images/logo1.PNG" %}" alt="" >
+             <span class="card-title" style="font-size:20px;color:orange;"><b>Periodic Test</b></span>
+         </center>      <p>We make sure our student are getting proper teching.So we conduct periodic test either offline and online(comming soon).</p>
+        </div>
+      </div></div>
+             <div class="col s4">
+      <div class="card orange lighten-1">
+        <div class="card-content">
+        <center>
+             <img src="{% static "images/planning.png" %}" alt="" >
+            <span class="card-title" style="font-size:20px;color:white;"><b>Individual Attention</b></span>
+<p>We tends to provide better teaching to every student and that why every student get individual attention like home tutions. </p>
+        </center>     </div>
+      </div></div>
+             <div class="col s4">
+      <div class="card whitesmoke lighten-5">
+        <div class="card-content">
+         <center>
+              <img src="{% static "images/projects.png" %}" alt="" >
+             <span class="card-title" style="font-size:20px;color:orange;"><b>Small Batches</b></span>
+<p>Small batches means better learning.Our batches are kept smaller so that each students can learn and interact with tutor easily. </p>
+         </center>      </div>
+      </div></div></div>
+               <div class="row">
+             <div class="col s4">
+      <div class="card orange lighten-1">
+        <div class="card-content">
+        <center>
+              <img src="{% static "images/quality1.png" %}" alt="" >
+            <span class="card-title" style="font-size:20px;color:white;"><b>Regular Assignments </b></span>
+<p>Regular assignments & notes are provided to students so that they can exercise their topics and assignments.</p>
+        </center>    </div>
+      </div></div>
+                     <div class="col s4">
+      <div class="card whitesmoke lighten-1">
+        <div class="card-content">
+        <center>
+              <img src="{% static "images/quality1.png" %}" alt="" >
+            <span class="card-title" style="font-size:20px;color:orange;"><b>Extra Activities</b></span>
+<p>Extra activities like motivational session,corporate talk etc. to prepare students for future.</p>
+        </center>    </div>
+      </div></div>
+          </div>
+</div>
+<div class="cs-texts">
+         <p>Our center is equipped with best in class infrastructure with clean and well lit classroom running
+             on optimum batch size to ensure attention to the needs of each child.</p>
+    <h4 style=" padding-left:30px;
+              color: blue;"><b>Bring Learning to life with PATS with these sailent features</b></h4>
+    <ul style="padding-left:30px;color:blue;">
+        <li>Decent Locality & reasonable fee structure</li>
+        <li>Batch wise tutoring</li>
+        <li>Evaluation after completion of each chapter</li>
+        <li>Full Syllabus Test in November & January</li>
+        <li>Regular Interaction with parents about Marks & Absence in classes/Tests</li>
+        <li>One-to-one session between the teacher and the students for doubt solving and personal mentaring</li>
+        <li>Highly Qualified, Experienced Faculties</li>
+         <li>Comprehensive Study material</li>
+        <img style="padding-left:700px;" src="{% static "images/projects.png" %}" alt="" >
+
+    </ul>
+
+   <hr style="width:80%;">
+    <p>To Grab this wonderful opportunities please visit or reach us out.<br>
+    #643,2nd Cross, C Main, Koramangala 8th block,Opp. Pooja Beauty Center<br>
+    Bangalore - 560095. E-mail: parvaaz.academy@gmail.com</p>
+    <h4 style=" padding-left:30px;
+              color: blue;"><b>Nearest Landmark: JP Dental Clinic,Corporation Bank</b></h4>
+    <p>Very close to major schools in locality</p>
+    <ul style="padding-left:30px;color:blue;">
+    <li>5 mins from Narayana E Techno School,Koramangala 8th Block</li>
+        <li>5 mins from Lawrence School,Koramangala 8th Block</li>
+        <li>10 mins from Bethany High School,Koramangla 8th Block</li>
+        <li>10 mins from PNS School,Koramnagla 8th Block</li>
+    </ul>
+    <p><b>For More Details<br>
+    </b> Contact - 9986468619 , 9353568409</p>
+
+    <p>this is our flyer content. In addition to the above 5 Features (Since we have similar ones) please add highly
+    qualified and experienced faculties and well lit classrooms with best in class infrastructure should be first feature.</p>
+
+</div>
+<hr style="width:80%;">
+<div class="gopop">
+    <center><h4 style="padding-top:20px;font-size:20px;color:black;"><b>Classes</b></h4>
+    <p style="font-size:13px;">We have designed our batches according to the classes we cover and there are following <br>classes which are currently being
+    taught at vector tutorials.</p></center>
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row halign-wrapper">
+
+            <div class="col s12">
+                 <div class="col s6">
+                 <div class="col s3">
+                     <img src="{% static "images/projects.png" %}" alt="" >
+                 </div>
+                <div class="col s3">
+                    <h4 style="font-size:18px;font-style:italic; color:brown;"> KG to 7th </h4>
+                    <p style="font-size:12px;"><b>ALL SUBJECTS</b></p>
+                    <p style="font-size:10px;">All subjects will be covered for the student belonging to class KG to 7th </p>
+                </div></div>
+                 <div class="col s6">
+                <div class="col s3">
+                     <img src="{% static "images/projects.png" %}" alt="" >
+                 </div>
+                <div class="col s3">
+                    <h4 style="font-size:18px;font-style:italic; color:brown;"> 8th to 10th </h4>
+                    <p style="font-size:12px;"><b>ALL SUBJECTS</b></p>
+                    <p style="font-size:10px;">All subjects will be covered for the student belonging to class 8th to 10th </p>
+                </div></div>
+                </div>
+<div class="col s12">
+    <div class="col s6">
+      <div class="col s3">
+                     <img src="{% static "images/projects.png" %}" alt="" >
+                 </div>
+                <div class="col s3">
+                    <h4 style="font-size:18px;font-style:italic; color:brown;"> 11th - 12th </h4>
+                    <p style="font-size:12px;"><b>ARTS,COMMERCE & SCIENCE</b></p>
+                    <p style="font-size:10px;">All subjects will be covered for the student belonging to class 11th to 12th </p>
+                </div></div>
+     <div class="col s6">
+                <div class="col s3">
+                     <img src="{% static "images/projects.png" %}" alt="" >
+                 </div>
+                <div class="col s3">
+                    <h4 style="font-size:18px;font-style:italic; color:brown;"> COMPUTER </h4>
+                    <p style="font-size:12px;"><b>BASIC & ADVANCED</b></p>
+                    <p style="font-size:10px;">Comming Soon </p>
+                </div></div></div>
+
+</div>
+        </div></div></div>
+<div class="contact">
+       <div class = "row">
+           <div class="col s6">
+           <div class="contact">
+                <h3 style="padding-left:30px;font-size:23px;font-style:italic; color:brown;"> Get in Touch</h3>
+                <p style="padding-left:30px;font-size:13px;"> Still have some question or want to know more about
+                <br>anything.Feel free to have few words with us.</p>
+               <h3 style="padding-to:30px;padding-left:30px;font-size:18px;font-style:italic; color:brown;">Visit Us At Office</h3>
+               <p style="padding-left:30px;font-size:13px;color:grey;"><b>Regd Office</b></p>
+               <p style="padding-left:30px;font-size:11px;"> B-282,GroundFloor,Ramphal Chowk,<br>
+               Dwarka Sec-7, New Delhi,110075</p>
+               <p style="padding-left:30px;font-size:13px;color:grey;"><b>Hours</b></p>
+               <p style="padding-left:30px;font-size:11px;"> Mon-Sat: 11:00 - 20:30<br>
+               Sunday: closed</p>
+                <p style="padding-left:30px;font-size:13px;color:grey;"><b>Let's Talk on Call/WhatsApp</b></p>
+               <p style="padding-left:30px;font-size:11px;"> Vector Tutorials<br>
+               <u>+91-97189-89072<br>
+               +91-97189-89088</u></p>
+           </div></div>
+       <div class="col s6">
+       {% if messages %}
+<ul>
+	{% for message in messages %}
+	   <li>{{ message }}</li>
+	{% endfor %}
+</ul>
+	{% endif %}
+        <h5 class="indigo-text"><i>Email US</i></h5>
+        <div class="z-depth-1 grey lighten-4 row" style="display: block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+    <form method="post">
+          {% csrf_token %}
+        <table>
+          {{ form.as_p }}
+            </table>
+          <button type="submit">Send Message</button>
+
+    </form>
+        </div></div>
+
+ </div></div>
+{% endblock %}
