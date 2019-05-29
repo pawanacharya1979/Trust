@@ -57,3 +57,7 @@ def contact(request):
 
 def quiz(request):
     return render(request, 'trustee/Onlinequiz.html')
+
+
+def tution(request):
+    return render(request,'trustee/tution.html')
