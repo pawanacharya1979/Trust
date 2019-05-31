@@ -61,3 +61,27 @@ def quiz(request):
 
 def tution(request):
     return render(request,'trustee/tution.html')
+
+
+def about(request):
+    return render(request,'trustee/aboutus.html')
+
+
+def uqaab(request):
+    return render(request,'trustee/uqaab.html')
+
+
+def leadership(request):
+    return render(request,'trustee/leadership.html')
+
+
+def support(request):
+    return render(request,'trustee/supportteam.html')
+
+
+def donate(request):
+    return render(request,'trustee/donate.html')
+
+
+def madrasa(request):
+    return render(request,'trustee/Madrasa.html')

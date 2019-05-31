@@ -1,0 +1,79 @@
+{% extends 'trustee/base.html' %}
+{% block content %}
+
+<style>
+    main{
+     margin:10px;
+
+    }
+    .abouthead{
+      padding-bottom:5px;
+    }
+    .abouthead p {
+       font-style:oblique;
+    }
+    .abouthead ol li{
+    font-size:13px;
+    font-style:italic;
+    color:black;
+    }
+    </style>
+
+<div class="abouthead">
+    <p>
+        PATS is established with an intention and objective to provide quality education to both underprivileged
+and privileged children irrespective of their caste, creed or religion. This institute is run under the
+        management of <a href="{% url 'uqaab' %}" style="color:blue;">UQAAB CHARITABLE & EDUCATIONAL TRUST</a>. To know more about Trust ,
+please click here.
+    </p>
+    <h4 style="font-style:oblique;color:red;"><u>Sailent Features</u></h4>
+    <ol>
+        <li>PATS offers learning strategies to students with advanced academic skills and learning styles.<br>
+Our experienced teachers use simple strategies to teach children in enjoyable way</li>
+        <li>We started this center with a view to extend support and guidance to students who enroll into
+our centers with an objective to excel</li>
+        <li>We deal into providing academic support to students from Pre -Primary to High School level and
+11 th and 12 th Class
+        </li>
+        <li>We ensure that all teachers who work with us are specialists in the subject that they opt for with
+quality years of experience.</li>
+    </ol>
+     <h4 style="font-style:oblique;color:red;"><u>Our Major Principles</u></h4>
+    <ol>
+        <li>
+            We aim at guiding our students to achieve best results in their academic path and to deliver<br>
+such results that their difficulty in handling a subject diminishes and is eliminated completely.
+        </li>
+        <li>
+            We have therefore set out various principles in order to help our students in an enormous way.
+        </li>
+        <li>
+            Our major focus being providing the best learning platform in all subjects.
+        </li>
+        <li>
+            Application of a very high standard with quality content and proficient faculty in order to<br>
+support excellent learning.
+        </li>
+        <li>
+            To provide a potential support system to our students so that they are able to move towards the<br>
+ladder of academic excellence
+        </li>
+        <li>
+            To provide a positive and open place to study so that the students can rise up to their maximum<br>
+potential.
+        </li>
+    </ol>
+     <h4 style="font-style:oblique;color:red;"><u>How To Get Started?</u></h4>
+    <p style="font-size:14px;">If you’re looking for best tuition center in Kormangla , Bangalore and you have finally come to this
+section of the page, we would like to help you sort out a few things which include “How To Get Started
+at Parvaz Academy Tutorial Services” .Well, there are a few things you can do from now on. If you have
+already understood our services and what we do then you can simply visit Contact Us page and join our
+tuition classes in Kormangla right from today.<br> But, if you still have any questions about our Tuition
+Center or other topic related to study. We suggest you following:<br><br>
+Let’s Get in Touch via Call (+91-9986468619, 9353568409) or Email (parvaaz.academy@gmail.com)<br><br>
+You are welcome to book a demo class today and get an idea about our teaching skills. (Don’t worry, you
+need not to pay anything for demo classes.)<br><br>
+Let us know about the improvement you notice in us and yourself after the demo tuition classes.
+        Share your feedback and <a href="{% url 'contact' %}" style="color:blue;">JOIN US</a></p>
+</div>
+{% endblock %}

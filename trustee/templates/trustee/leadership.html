@@ -1,0 +1,149 @@
+{% extends 'trustee/base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+
+              .main-title{
+  color: darkred;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+    @import url(https://fonts.googleapis.com/css?family=Raleway);
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+.container1{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container1{
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px){
+  .container1{
+    width: 33.33333%;
+  }
+}
+.container1 .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay{
+  opacity: 1;
+}
+.content-image{
+  width: 100%;
+}
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.content-details h4{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+.fadeIn-bottom{
+  top: 80%;
+}
+  @media only screen and (max-device-width: 480px) {
+
+
+  }
+    </style>
+<div class="team grey lighten-5">
+<h3 class="main-title">Core Management Team</h3>
+    <div class="container1">
+
+  <div class="content">
+          <div class="content-overlay"></div>
+      <img class="content-image" src= "{% static "images/uqaab.PNG" %}"/>
+      <div class="content-details fadeIn-bottom">
+        <h4 class="content-title">Founder & Chairman Uqaab Charitable & Educational Trust</h4>
+          <h4 class="content-title">Prinicipal Madrasa Parvaz-ul-Uloom</h4>
+        <p class="content-text">Hafiz Qari Maulana Rahbar-e-Islam Parvaz Qasmi, M.A</p>
+          <p class="content-text">Businessman & Teacher by Profession for past 17 years</p>
+      </div>
+     </div>
+</div>
+     <div class="container1">
+
+  <div class="content">
+          <div class="content-overlay"></div>
+      <img class="content-image" src= "{% static "images/Arsha.PNG" %}"/>
+      <div class="content-details fadeIn-bottom">
+        <h4 class="content-title">Co-Founder & Treasurer  Uqaab Charitable & Educational Trust</h4>
+          <h4 class="content-title">Founder & Principal Parvaz Academy Tutorial Services</h4>
+        <p class="content-text">Arshiya Chand, B.E</p>
+          <p class="content-text">Software Engineer by Profession</p>
+      </div>
+     </div>
+</div>
+     <div class="container1">
+
+  <div class="content">
+          <div class="content-overlay"></div>
+      <img class="content-image" src= "{% static "images/logo.PNG" %}"/>
+      <div class="content-details fadeIn-bottom">
+        <h4 class="content-title">Teacher</h4>
+        <p class="content-text">Hi, I am ALi.</p>
+      </div>
+     </div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,66 @@
+{% extends 'trustee/base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+      .main-title{
+  color: darkred;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+ main{
+     margin:10px;
+
+    }
+    .abouthead{
+      padding-bottom:5px;
+    }
+    .abouthead p {
+       font-style:oblique;
+    }
+    .abouthead ol li{
+    font-size:13px;
+    font-style:italic;
+    color:blue;
+    }
+    </style>
+
+<div class="team grey lighten-5">
+              <a href="{% url 'madrasa' %}"><img class="responsive-img" id="logo" src= "{% static "images/madrasa_logo.PNG" %}"/></a>
+
+<h3 class="main-title">Madarasa Parvaz-ul-Uloom For Women</h3>
+</div>
+
+<div class="abouthead">
+    <p>
+       “Madrasa Parvaz-ul-Uloom For Women” established on “17-03-2019” under the management of “Uqaab Charitable & Educational Trust” with an objective to impart ILM DEEN exclusively for women. This organization gives a great opportunity for women who want to gain sufficient knowledge in ILM DEEN and Sharia by offering MUQARRIRA & AALIMA course providing exposure to TAFSIR-E-QURAN(interpretation of Quran; in simple words, explain the text of Quran as is), HADEES - E – NABVI, TAJWEED & FIQH(Islamic jurisprudence. In simple words, it deals with acts of Muslim that includes worship and daily life actions).
+
+    </p>
+     <h4 style="font-style:oblique;color:red;"><u>What is the Objective?</u></h4>
+    <p>In today’s modern & digital world where we are running towards gathering wealth and materialistic happiness, it becomes very vital to learn and understand ILM DEEN correctly. Currently, we come across several Muslim men as Hafiz-e-Quran, Maulvi’s etc. everywhere talking and debating about Islam and sharia. We have many Muslim women in almost all economic fields today, but we hardly have handful of Muslim women who are rightly knowledgeable and capable to answer any queries raised regarding Islam and Sharia, due to which question’s raised by common women go unanswered and unheard. This is also a major factor behind why our Muslim women today get lured easily towards misconception, misinterpretation, misreading and misbelief about Islam and Sharia. Therefore, the main objective and motive of this organization is to bring the reality and actuality of Islam and Sharia by preaching ILM DEEN.
+</p>
+    <h4 style="font-style:oblique;color:red;"><u>How do we achieve this objective?</u></h4>
+    <p>MADRASA PARVAZ-UL-ULOOM is offering MUQARRIRA (speaking skills about Islam & Sharia) course. As part of this course, our women will be exposed to TAFSIR-E-QURAN (interpretation of Quran; in simple words, explain the text of Quran as is), HADEES-E-NABVI & FIQH (i.e., Islamic jurisprudence. In simple words, it deals with acts of Muslim that includes worship and daily life actions). At the end of this course, our women will gain enough knowledge and proficiency about Islam and Sharia, Insha Allah.</p>
+    <h4 style="font-style:oblique;color:red;"><u>Courses we Offer:</u></h4>
+<ol>
+    <li>
+        URDU – Basic and high level</li>
+    <li>NAAZRA – Open to women who want to correct their Quran reading</li>
+    <li>TAFSIR-E – QURAN – Interpretation of Quran in very simple and understandable texts</li>
+    <li>TAJWEED – Pronouncing Arabic letters correctly. Very important to read Quran correctly</li>
+    <li>FIQH - Islamic jurisprudence. In simple words, it deals with acts of Muslim that includes worship and daily life actions)</li>
+    <li>HADEES-E-NABVI – Hadees with tafseer</li>
+
+</ol>
+    <p>Classes have already begun from April and are currently in Progress .Alham du lillah women are actively taking part in learning Urdu, Naazra, Tafseer-e Quran, Tajweed,Fiqh and Hadees .
+</p>
+    <p>To join us and support this beautiful initiative, please <a href="{% url 'contact' %}" style="color:blue;">Click Here</a> and we will get back to you
+</p>
+    <h4 style="font-style:oblique;color:red;"><u>Hours</u></h4>
+    <ul><li>Monday to Friday – 10:30 am to 12: 30 pm</li>
+    <li>Saturday & Sunday - Closed
+</li></ul>
+</div>
+{% endblock %}

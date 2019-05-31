@@ -1,0 +1,99 @@
+{% extends 'trustee/base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+     .main-title{
+  color: darkred;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+ main{
+     margin:10px;
+
+    }
+    .abouthead{
+      padding-bottom:5px;
+    }
+    .abouthead p {
+       font-style:oblique;
+    }
+    .abouthead ol li{
+    font-size:13px;
+    font-style:italic;
+    color:black;
+    }
+    </style>
+<div class="team grey lighten-5">
+                  <a href="{% url 'uqaab' %}"><img class="responsive-img" id="logo" src= "{% static "images/Trust_logo.PNG" %}"/></a>
+
+<h3 class="main-title">ABOUT UQAAB EDUCATIONAL & CHARITABLE TRUST (Regd No.
+93 -2011-12)</h3>
+</div>
+
+<div class="abouthead">
+    <p>
+        <b>UQAAB CHARITABLE & EDUCATIONAL Trust</b> is a non-profit, non-governmental, educational and
+charitable organization which was initiated and set up in the year 2011. The Trust has been registered
+under Indian Trusts Act Vide Registration Number 93/11 and has been functioning in Bangalore in India.
+    </p>
+    <p><b style="color:blue;">UQAAB CHARITABLE & EDUCATIONAL Trust</b> is working for the upliftment of the poorest of poor
+and serves all communities irrespective of caste, creed and religion.</p>
+    <p>The activities include providing quality education by encouragement of learning, basic Computer
+
+Education, offering school uniforms, text and note books, school bags etc. to encourage education and
+tutoring services to children of economically weaker section of the society.</p>
+    <ol>
+        <li>Basically established with objective to establish, conduct and encourage educational institutions
+of any level to impart quality education, training and discipline among youth in different fields
+such as education, health, cultural, socio-economic and others irrespective of caste, creed and
+religion.</li>
+        <li>To promote socioeconomic welfare activities particularly amond women, children and other
+weaker section of the society
+        </li>
+        <li>To organize and conduct training courses and camps for the betterment of unemployed men
+and women</li>
+        <li>To organize and conduct schools or welfare programmes for women and spastic children</li>
+        <li>To work for rural development and environment awareness and protection</li>
+        <li>To public educational, literacy and spiritual works</li>
+    </ol>
+    <p>We have provided primary, secondary and pre-university education to underprivileged children who are
+now successfully accomplished in life.</p>
+    <div class="grid grey lighten-5">
+<div class="row">
+     <div class="col s6">
+      <div class="card whitesmoke lighten-5">
+        <div class="card-content">
+
+
+             <span class="card-title" style="font-size:20px;color:darkred;"><b>Under UQAAB CHARITABLE & EDUCATIONAL Trust</b></span>
+            <ul class="collection with-header">
+        <li class="collection-item"><div style="color:green;font-style:bold;">Madrasa Parvaz-ul-Uloom For Women<a href="{% url 'madrasa' %}" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+        <li class="collection-item"><div style="color:green;font-style:bold;">Parvaz Academy Tutorial Services<a href="{% url 'home' %}"  class="secondary-content"><i class="material-icons">send</i></a></div></li>
+        <li class="collection-item"><div style="color:green;font-style:bold;">Madrasa Parvaz –ul –Uloom For Men(Coming soon)<a href="#" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+       </ul>
+
+             </div>
+</div></div>
+</div></div>
+     <h4 style="font-style:oblique;color:red;"><u>HELP US SERVE MORE LIVES</u></h4>
+    <p>If you reside in INDIA, click here to <a href="{% url 'donate' %}" style="color:blue;">DONATE</a></p>
+    <p>To support us and join us in this initiative for a better future <a href="{% url 'contact' %}" style="color:blue;">Contact Us </a></p>
+</p>
+<div class="address">
+    <div class="row">
+    <div class="col s6">
+     <img class="content-image" src= "{% static "images/uqaab.PNG" %}"/>
+         <p>Hafiz Qari Maulana Rahbar-e-Islam Parvaz Qasmi, M.A</p>
+        <p>Founder & Chairman</p>
+   </div>
+         <div class="col s6">
+             <img class="content-image" src= "{% static "images/Arsha.PNG" %}"/>
+             <p>Arshiya Chand, B.E</p>
+         <p>Treasurer & Managing Trustee</p>
+
+         </div>
+    </div></div>
+</div>
+{% endblock %}
