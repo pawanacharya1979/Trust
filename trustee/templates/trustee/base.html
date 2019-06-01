@@ -3,17 +3,18 @@
 <html lang="en">
       <head>
           <meta charset="UTF-8">
-    <title></title>
-           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-          <link href="/assets/materialize.css?body=1" media="all" rel="stylesheet" type="text/css" />
-           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css">
-	   <link media="screen,projection"/>
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+           <link href="/assets/materialize.css?body=1" media="all" rel="stylesheet" type="text/css" />
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css">
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+           <link media="screen,projection"/>
+
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <style>
 html,body{
           height:100%;
@@ -355,13 +356,12 @@ var mb = document.querySelectorAll('.materialboxed');
       M.Materialbox.init(mb,{
       });
 
-(document).ready(function(){
+$(document).ready(function(){
 $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
       hover: true, // Activate on hover
       belowOrigin: true, // Displays dropdown below the button
-      gutter: 0, // Spacing from edge
       alignment: 'right' // Displays dropdown with edge aligned to the left of button
     }
   );
