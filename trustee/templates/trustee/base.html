@@ -190,7 +190,7 @@ display:inline;
     <nav>
       <div class="nav-wrapper">
           {% load static %}
-          <a href="{% url 'home' %}" title="Sol Education Consultancy"><img class="responsive-img" id="logo" src= "{% static "images/logo.PNG" %}"/></a>
+          <a href="{% url 'home' %}"><img class="responsive-img" id="logo" src= "{% static "images/logo.PNG" %}"/></a>
         <a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
              <li><a href="{% url 'home' %}">Home</a></li>
@@ -203,7 +203,6 @@ display:inline;
         <ul class="side-nav" id="mobile-demo">
 
            <li><a href="{% url 'home' %}">Home</a></li>
-            <li><a class="dropdown-button" href="{% url 'home' %}" data-activates="dropdown" data-beloworigin="true">About Us</a></li>
              <li><a href="{% url 'tution' %}">Tution For 11th and 12th class</a></li>
              <li><a href="{% url 'quiz' %}">Online Quiz</a></li>
              <li><a href="{% url 'contact' %}">Contact Us</a></li>
@@ -221,7 +220,7 @@ display:inline;
 		</li>
 
         <a href="{% url 'uqaab' %}" class="secondary-content">
-                     <span class="title">About Uqaab Charitable & Educational Trust</span></a>
+                     <span class="title">About Uqaab Charitable Trust</span></a>
 		</li>
 </ul>
 
@@ -316,6 +315,18 @@ display:inline;
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
  <script>
 
+$(document).ready(function(){
+$('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      hover: true, // Activate on hover
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'right' // Displays dropdown with edge aligned to the left of button
+    }
+  );
+		}); // End Document Ready
+
+
 $(document).ready(function() {
     $('select').material_select();
   });
@@ -355,17 +366,6 @@ document.addEventListener("DOMContentLoaded", function(){
 var mb = document.querySelectorAll('.materialboxed');
       M.Materialbox.init(mb,{
       });
-
-$(document).ready(function(){
-$('.dropdown-button').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      hover: true, // Activate on hover
-      belowOrigin: true, // Displays dropdown below the button
-      alignment: 'right' // Displays dropdown with edge aligned to the left of button
-    }
-  );
-		}); // End Document Ready
 
  </script>
 </html>
