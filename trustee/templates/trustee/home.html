@@ -63,6 +63,9 @@ div.row .col.s3 {
     right: auto;
 }
 }
+.cs-texts img{
+padding-left:700px;
+}
 @media only screen and (max-device-width: 768px) {
 .row .col.s3 {
     width: 50%;
@@ -70,8 +73,16 @@ div.row .col.s3 {
     left: auto;
     right: auto;
 }
+ .cs-texts img{
+padding-left:150px;
+}
    }
-
+ @media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px;  */
+       .cs-texts img{
+padding-left:150px;
+}
+       }
 </style>
 
 <div class="costumer-satis">
@@ -160,7 +171,7 @@ div.row .col.s3 {
         <li>One-to-one session between the teacher and the students for doubt solving and personal mentaring</li>
         <li>Highly Qualified, Experienced Faculties</li>
          <li>Comprehensive Study material</li>
-        <img style="padding-left:700px;" src="{% static "images/projects.png" %}" alt="" >
+        <img src="{% static "images/projects.png" %}" alt="" >
 
     </ul>
 

@@ -24,6 +24,23 @@
     font-style:italic;
     color:black;
     }
+     @media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px;  */
+       .row .col.s6 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+}
+@media only screen and (max-device-width: 768px) {
+ .row .col.s6 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+       }
     </style>
 <div class="team grey lighten-5">
                   <a href="{% url 'uqaab' %}"><img class="responsive-img" id="logo" src= "{% static "images/Trust_logo.PNG" %}"/></a>
