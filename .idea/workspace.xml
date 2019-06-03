@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdcf2464-25be-4612-82c6-b5290cb37b3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/Onlinequiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/Onlinequiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/uqaab.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/uqaab.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,23 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="152" column="60" lean-forward="true" selection-start-line="151" selection-start-column="1" selection-end-line="152" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="185">
+              <caret line="234" column="13" lean-forward="true" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -72,11 +55,11 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Trust/settings.py" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/tution.html" />
-        <option value="$PROJECT_DIR$/trustee/templates/trustee/base.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/home.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/uqaab.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/Onlinequiz.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/contact.html" />
+        <option value="$PROJECT_DIR$/trustee/templates/trustee/base.html" />
       </list>
     </option>
   </component>
@@ -160,7 +143,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1297" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24528302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,20 +390,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="152" column="60" lean-forward="true" selection-start-line="151" selection-start-column="1" selection-end-line="152" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#center#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="234" column="13" lean-forward="true" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
         </state>
       </provider>
     </entry>
