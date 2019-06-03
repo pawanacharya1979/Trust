@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms import ContactForm, ContactForm1
+from .forms import HomeForm, ContactForm1
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.core.mail import EmailMessage
@@ -9,7 +9,7 @@ from django.core.mail import EmailMessage
 
 def home(request):
     if request.method == 'POST':
-        form = ContactForm(request.POST)
+        form = HomeForm(request.POST)
         if form.is_valid():
             form.save()
             name = form.cleaned_data.get('Name')
@@ -25,9 +25,9 @@ def home(request):
             )
             email.send()
             messages.success(request, 'Thank You! for contacting us, we will get back to you soon.')
-            return HttpResponseRedirect('/home/')
+            return HttpResponseRedirect('')
     else:
-        form = ContactForm()
+        form = HomeForm()
     return render(request, 'trustee/home.html', {'form': form})
 
 
@@ -49,9 +49,9 @@ def contact(request):
             )
             email.send()
             messages.success(request, 'Thank You! for contacting us, we will get back to you soon.')
-            return HttpResponseRedirect('/contact/')
+            return HttpResponseRedirect('/contact-us/')
     else:
-        form = ContactForm()
+        form = ContactForm1()
     return render(request, 'trustee/contact.html', {'form': form})
 
 

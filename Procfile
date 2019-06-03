@@ -1,0 +1,1 @@
+web: gunicorn Trust.wsgi --log-file -
