@@ -4,9 +4,9 @@
     <list default="true" id="fdcf2464-25be-4612-82c6-b5290cb37b3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trust/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trust/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trustee/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trustee/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/tution.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/tution.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trust/settings.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="140">
+              <caret line="192" column="17" lean-forward="true" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/tution.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#center#1;n#div#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -55,7 +66,6 @@
         <option value="$PROJECT_DIR$/trustee/models.py" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/contact.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/Onlinequiz.html" />
-        <option value="$PROJECT_DIR$/trustee/templates/trustee/tution.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/aboutus.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/leadership.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/supportteam.html" />
@@ -63,14 +73,17 @@
         <option value="$PROJECT_DIR$/trustee/urls.py" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/Madrasa.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/uqaab.html" />
-        <option value="$PROJECT_DIR$/trustee/templates/trustee/home.html" />
-        <option value="$PROJECT_DIR$/trustee/templates/trustee/base.html" />
         <option value="$PROJECT_DIR$/trustee/forms.py" />
         <option value="$PROJECT_DIR$/trustee/views.py" />
-        <option value="$PROJECT_DIR$/Trust/settings.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/static_storage/__init.py__.py" />
+        <option value="$PROJECT_DIR$/static_storage/__init__.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Trust/settings.py" />
+        <option value="$PROJECT_DIR$/trustee/templates/trustee/home.html" />
+        <option value="$PROJECT_DIR$/trustee/templates/trustee/tution.html" />
+        <option value="$PROJECT_DIR$/trustee/templates/trustee/base.html" />
       </list>
     </option>
   </component>
@@ -156,7 +169,7 @@
     <frame x="64" y="-11" width="1217" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24580537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24580537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -167,7 +180,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.42945737" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39534885" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -242,24 +255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/tution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="75" column="6" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#center#1;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/donate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -311,45 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="136" column="89" lean-forward="true" selection-start-line="136" selection-start-column="89" selection-end-line="136" selection-end-column="89" />
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#center#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#ul#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#center#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#center#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="201" column="13" lean-forward="true" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trustee/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -390,31 +346,94 @@
     <entry file="file://$PROJECT_DIR$/requirements">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_storage/__init.py__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_storage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Trust/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="178">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#center#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#ul#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#center#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#center#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/tution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#center#1;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="192" column="17" lean-forward="true" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
         </state>
       </provider>
     </entry>
