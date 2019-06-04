@@ -25,7 +25,7 @@ def home(request):
             )
             email.send()
             messages.success(request, 'Thank You! for contacting us, we will get back to you soon.')
-            return HttpResponseRedirect('')
+            return HttpResponseRedirect('/')
     else:
         form = HomeForm()
     return render(request, 'trustee/home.html', {'form': form})
