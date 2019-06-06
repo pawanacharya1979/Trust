@@ -1,25 +1,30 @@
 {% extends 'trustee/base.html' %}
+{% load static %}
 {% block content %}
 
 <style>
-.costumer-satis{
-                height:400px;
-                display:grid;
-                {% load static %}
-                background-image: url("{% static "images/home.jpg" %}");
-                background-size:cover;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-              }
+
 .cs-texts h2{
               padding-top:50px;
               padding-left:30px;
               color: whitesmoke;
               font-style:italic;
             }
+            .cs-texts1 h2{
+              padding-top:50px;
+              padding-left:30px;
+              color: whitesmoke;
+              font-style:italic;
+            }
+
             .cs-texts p{
               padding-left:30px;
-              color: blue;
+              color: smokeblack;
+              font-style:italic;
+            }
+             .cs-texts1 p{
+              padding-left:30px;
+              color: white;
               font-style:italic;
             }
             .cs-texts1 h4{
@@ -29,9 +34,7 @@
               font-style:italic;
             }
 
-.grid{
-     background-color:grey;
-}
+
  @media only screen and (max-device-width: 480px) {
 .cs-texts h2 {
     padding-top: 168px;
@@ -84,36 +87,43 @@ padding-left:150px;
 }
        }
 </style>
-
-<div class="costumer-satis">
-     <div class="cs-texts"><h2> Discover New<br>
-      Learning<br>Possibilities</h2>
+<div class="carousel carousel-slider " data-indicators="true">
+<div class="carousel-fixed-item">
+   <div class="cs-texts1"><h2> Discover New<br>
+      Possibilities<br>of Learning</h2>
          <p>Discover your true potential to know more efficently.Clear your doubts<br>
          and concepts by commmanding your subjects and topics so that you can<br>
          not only score good marks but also learn deeply.</p>
-</div>
-</div>
+   </div></div>
+    <a class="carousel-item" ><img src="https://static.pexels.com/photos/267885/pexels-photo-267885.jpeg" height="500px"></a>
+    <a class="carousel-item" ><img src="https://www.mdc.edu/virtual/img/students-in-summer.png"height="500px"></a>
+    <a class="carousel-item" ><img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/static/images/top-home-bg-new.jpg"height="500px"></a>
+    <a class="carousel-item" ><img src="https://www.curry.edu/assets/Images/Homepage/About/curry-fund-1440-lg.jpg"height="500px"></a>
+  </div>
+
+
+
  <div class="cs-texts1"><h4> Why Parvaz Academy Tutorial Services</h4>
  </div>
 <hr style="width:80%;">
-<div class="grid">
-                 <center><h4 style="padding-top:20px;font-size:13px;color:white;">You may find other tutorials points
-                 across the city.But there is something about us which put us<br> aside the crowd</h4></center>
+<div class="grid grey lighten-5">
+                 <center><h4 style="padding-top:20px;font-size:13px;color:smokeblack;">You may find other tutorials points
+                 across the city.But there is something about us which put us<br> aside the crowd.</h4></center>
              <div class="row">
     <div class="col s4">
       <div class="card whitesmoke lighten-5">
         <div class="card-content">
          <center>
-              <img src="{% static "images/logo1.PNG" %}" alt="" >
+              <i class="large material-icons" style="color:red;">mode_edit</i>
              <span class="card-title" style="font-size:20px;color:orange;"><b>Periodic Test</b></span>
          </center>      <p>We make sure our student are getting proper teching.So we conduct periodic test either offline and online(comming soon).</p>
         </div>
       </div></div>
              <div class="col s4">
-      <div class="card orange lighten-1">
+      <div class="card grey lighten-1">
         <div class="card-content">
         <center>
-             <img src="{% static "images/planning.png" %}" alt="" >
+            <i class="large material-icons" style="color:blue;">done_all</i>
             <span class="card-title" style="font-size:20px;color:white;"><b>Individual Attention</b></span>
 <p>We tends to provide better teaching to every student and that why every student get individual attention like home tutions. </p>
         </center>     </div>
@@ -122,17 +132,17 @@ padding-left:150px;
       <div class="card whitesmoke lighten-5">
         <div class="card-content">
          <center>
-              <img src="{% static "images/projects.png" %}" alt="" >
+             <i class="large material-icons" style="color:green;">group</i>
              <span class="card-title" style="font-size:20px;color:orange;"><b>Small Batches</b></span>
 <p>Small batches means better learning.Our batches are kept smaller so that each students can learn and interact with tutor easily. </p>
          </center>      </div>
       </div></div></div>
                <div class="row">
              <div class="col s4">
-      <div class="card orange lighten-1">
+      <div class="card grey lighten-1">
         <div class="card-content">
         <center>
-              <img src="{% static "images/quality1.png" %}" alt="" >
+            <i class="large material-icons" style="color:purple;">border_color</i>
             <span class="card-title" style="font-size:20px;color:white;"><b>Regular Assignments </b></span>
 <p>Regular assignments & notes are provided to students so that they can exercise their topics and assignments.</p>
         </center>    </div>
@@ -141,28 +151,28 @@ padding-left:150px;
       <div class="card whitesmoke lighten-1">
         <div class="card-content">
         <center>
-              <img src="{% static "images/quality1.png" %}" alt="" >
+             <i class="large material-icons"style="color:grey;">audiotrack</i>
             <span class="card-title" style="font-size:20px;color:orange;"><b>Extra Activities</b></span>
 <p>Extra activities like motivational session,corporate talk etc. to prepare students for future.</p>
         </center>    </div>
       </div></div>
                    <div class="col s4">
-      <div class="card orange lighten-1">
+      <div class="card grey lighten-1">
         <div class="card-content">
         <center>
-              <img src="{% static "images/quality1.png" %}" alt="" >
+                <i class="large material-icons" style="color:blue;">local_library</i>
             <span class="card-title" style="font-size:20px;color:white;"><b>Qualified and experienced faculties</b></span>
 <p>Highly qualified and experienced faculties and well lit classrooms with best in class infrastructure.</p>
         </center>    </div>
       </div></div>
           </div>
 </div>
-<div class="cs-texts">
+<div class="cs-texts grey lighten-5">
          <p>Our center is equipped with best in class infrastructure with clean and well lit classroom running
              on optimum batch size to ensure attention to the needs of each child.</p>
     <h4 style=" padding-left:30px;
-              color: blue;"><b>Bring Learning to life with PATS with these sailent features</b></h4>
-    <ul style="padding-left:30px;color:blue;">
+              color: red;"><b>Bring Learning to life with PATS with these sailent features</b></h4>
+    <ul style="padding-left:30px;color:black;font-style:oblique;">
         <li>Decent Locality & reasonable fee structure</li>
         <li>Batch wise tutoring</li>
         <li>Evaluation after completion of each chapter</li>
@@ -171,7 +181,7 @@ padding-left:150px;
         <li>One-to-one session between the teacher and the students for doubt solving and personal mentaring</li>
         <li>Highly Qualified, Experienced Faculties</li>
          <li>Comprehensive Study material</li>
-        <img src="{% static "images/projects.png" %}" alt="" >
+        <img src="{% static "images/book.jpeg" %}" alt="" >
 
     </ul>
 
@@ -180,9 +190,9 @@ padding-left:150px;
     #643,2nd Cross, C Main, Koramangala 8th block,Opp. Pooja Beauty Center<br>
     Bangalore - 560095. E-mail: parvaaz.academy@gmail.com</p>
     <h4 style=" padding-left:30px;
-              color: blue;"><b>Nearest Landmark: JP Dental Clinic,Corporation Bank</b></h4>
+              color: red;"><b>Nearest Landmark: JP Dental Clinic,Corporation Bank</b></h4>
     <p>Very close to major schools in locality</p>
-    <ul style="padding-left:30px;color:blue;">
+    <ul style="padding-left:30px;color:black;font-style:oblique;">
     <li>5 mins from Narayana E Techno School,Koramangala 8th Block</li>
         <li>5 mins from Lawrence School,Koramangala 8th Block</li>
         <li>10 mins from Bethany High School,Koramangla 8th Block</li>
@@ -194,10 +204,10 @@ padding-left:150px;
 
 </div>
 <hr style="width:80%;">
-<div class="gopop">
+<div class="gopop grey lighten-5">
     <center><h4 style="padding-top:20px;font-size:20px;color:black;"><b>Classes</b></h4>
     <p style="font-size:13px;">We have designed our batches according to the classes we cover and there are following <br>classes which are currently being
-    taught at vector tutorials.</p></center>
+    taught at PATS.</p></center>
     <div class="col s12 m8 offset-m2 l6 offset-l3">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row halign-wrapper">
@@ -205,7 +215,7 @@ padding-left:150px;
             <div class="col s12">
                  <div class="col s6">
                  <div class="col s3">
-                     <img src="{% static "images/projects.png" %}" alt="" >
+                      <i class="large material-icons" style="color:green;">local_library</i>
                  </div>
                 <div class="col s3">
                     <h4 style="font-size:18px;font-style:italic; color:brown;"> KG to 7th </h4>
@@ -214,7 +224,7 @@ padding-left:150px;
                 </div></div>
                  <div class="col s6">
                 <div class="col s3">
-                     <img src="{% static "images/projects.png" %}" alt="" >
+                       <i class="large material-icons" style="color:green;">local_library</i>
                  </div>
                 <div class="col s3">
                     <h4 style="font-size:18px;font-style:italic; color:brown;"> 8th to 10th </h4>
@@ -225,7 +235,7 @@ padding-left:150px;
 <div class="col s12">
     <div class="col s6">
       <div class="col s3">
-                     <img src="{% static "images/projects.png" %}" alt="" >
+                      <i class="large material-icons" style="color:green;">local_library</i>
                  </div>
                 <div class="col s3">
                     <h4 style="font-size:18px;font-style:italic; color:brown;"> 11th - 12th </h4>
@@ -234,7 +244,7 @@ padding-left:150px;
                 </div></div>
      <div class="col s6">
                 <div class="col s3">
-                     <img src="{% static "images/projects.png" %}" alt="" >
+                   <i class="large material-icons" style="color:green;">laptop_mac</i>
                  </div>
                 <div class="col s3">
                     <h4 style="font-size:18px;font-style:italic; color:brown;"> COMPUTER </h4>
@@ -244,7 +254,7 @@ padding-left:150px;
 
 </div>
         </div></div></div>
-<div class="contact">
+<div class="contact grey lighten-5">
        <div class = "row">
            <div class="col s6">
            <div class="contact">
@@ -253,15 +263,16 @@ padding-left:150px;
                 <br>anything.Feel free to have few words with us.</p>
                <h3 style="padding-to:30px;padding-left:30px;font-size:18px;font-style:italic; color:brown;">Visit Us At Office</h3>
                <p style="padding-left:30px;font-size:13px;color:grey;"><b>Regd Office</b></p>
-               <p style="padding-left:30px;font-size:11px;"> B-282,GroundFloor,Ramphal Chowk,<br>
-               Dwarka Sec-7, New Delhi,110075</p>
+               <p style="padding-left:30px;font-size:11px;"> #643,2nd Cross, C Main, Koramangala 8th block,<br>
+               Opp. Pooja Beauty Center
+Bangalore - 560095</p>
                <p style="padding-left:30px;font-size:13px;color:grey;"><b>Hours</b></p>
-               <p style="padding-left:30px;font-size:11px;"> Mon-Sat: 11:00 - 20:30<br>
-               Sunday: closed</p>
+               <p style="padding-left:30px;font-size:11px;"> Monday to Friday – 10:30 am to 12: 30 pm<br>
+               Saturday & Sunday - Closed</p>
                 <p style="padding-left:30px;font-size:13px;color:grey;"><b>Let's Talk on Call/WhatsApp</b></p>
-               <p style="padding-left:30px;font-size:11px;"> Vector Tutorials<br>
-               <u>+91-97189-89072<br>
-               +91-97189-89088</u></p>
+               <p style="padding-left:30px;font-size:11px;"> Parvaz Academy Tutorial Services <br>
+               <u>+91-99864-68619<br>
+               +91-93535-68409</u></p>
            </div></div>
        <div class="col s6">
        {% if messages %}
