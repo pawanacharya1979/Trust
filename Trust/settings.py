@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'fs+!(z9g@zo608nb%__kl5*qk=4227mcl#b1$6^k-8or%-7h65'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['uqaab-trust.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['parvazacademy.herokuapp.com']
 ########## EMAIL CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#email-backend
 ########## END EMAIL CONFIGURATION
