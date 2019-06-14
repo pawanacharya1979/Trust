@@ -9,6 +9,16 @@
   text-transform: capitalize;
   padding: 0.7em 0;
 }
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: blue; }
+    50%{    color: green; }
+    99%{    color:orange;  }
+    100%{   color: red;    }
+}
  main{
      margin:10px;
 
@@ -43,7 +53,7 @@
        }
     </style>
 <div class="team grey lighten-5">
-                  <a href="{% url 'uqaab' %}"><img class="responsive-img" id="logo" src= "{% static "images/Trust_logo.PNG" %}"/></a>
+    <center>  <a href="{% url 'uqaab' %}"><img class="responsive-img" id="logo" src= "{% static "images/Trust_logo.png" %}"/></a></center>
 
 <h3 class="main-title">ABOUT UQAAB EDUCATIONAL & CHARITABLE TRUST (Regd No.
 93 -2011-12)</h3>
@@ -95,18 +105,18 @@ now successfully accomplished in life.</p>
 </div></div>
 </div></div>
      <h4 style="font-style:oblique;color:red;"><u>HELP US SERVE MORE LIVES</u></h4>
-    <p>If you reside in INDIA, click here to <a href="{% url 'donate' %}" style="color:blue;">DONATE</a></p>
+    <p>If you reside in INDIA, click here to <a href="{% url 'donate' %}"class ="blinking" style="color:blue;">DONATE</a></p>
     <p>To support us and join us in this initiative for a better future <a href="{% url 'contact' %}" style="color:blue;">Contact Us </a></p>
 </p>
 <div class="address">
     <div class="row">
     <div class="col s6">
-     <img class="content-image" src= "{% static "images/uqaab.PNG" %}"/>
+     <img class="responsive-img" src= "{% static "images/Parvaz.JPG" %}"/>
          <p>Hafiz Qari Maulana Rahbar-e-Islam Parvaz Qasmi, M.A</p>
         <p>Founder & Chairman</p>
    </div>
          <div class="col s6">
-             <img class="content-image" src= "{% static "images/Arsha.PNG" %}"/>
+             <img class="responsive-img" src= "{% static "images/Arshiya.JPG" %}"/>
              <p>Arshiya Chand, B.E</p>
          <p>Treasurer & Managing Trustee</p>
 

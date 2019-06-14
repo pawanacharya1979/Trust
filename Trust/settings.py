@@ -25,7 +25,7 @@ SECRET_KEY = 'fs+!(z9g@zo608nb%__kl5*qk=4227mcl#b1$6^k-8or%-7h65'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.mparvazacademy.com','parvazacademy.herokuapp.com']
+ALLOWED_HOSTS = ['www.mparvazacademy.com','parvazacademy.herokuapp.com','127.0.0.1']
 ########## EMAIL CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#email-backend
 ########## END EMAIL CONFIGURATION
@@ -91,6 +91,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 import dj_database_url
 
 db_from_env = dj_database_url.config()
