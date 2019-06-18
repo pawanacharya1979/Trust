@@ -45,7 +45,7 @@ def contact(request):
             email = EmailMessage(
                 'Contact From',
                 str(body),
-                to=['parvaaz.academy@gmail.com']
+                to=['parvaaz.academy@gmail.com',]
             )
             email.send()
             messages.success(request, 'Thank You! for contacting us, we will get back to you soon.')

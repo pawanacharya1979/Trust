@@ -29,12 +29,15 @@ ALLOWED_HOSTS = ['www.mparvazacademy.com','parvazacademy.herokuapp.com','127.0.0
 ########## EMAIL CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#email-backend
 ########## END EMAIL CONFIGURATION
+
+import sendgrid
+
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_USER = 'app136553190@heroku.com'
+EMAIL_HOST_PASSWORD = 'zwdb1hq54279'
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'PATS <noreply@example.com>'
+DEFAULT_FROM_EMAIL = 'PATS <parvaaz.academy@gmail.com>'
 
 
 # Application definition

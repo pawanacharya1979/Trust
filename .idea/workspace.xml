@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdcf2464-25be-4612-82c6-b5290cb37b3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/trustee/templates/trustee/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/templates/trustee/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trust/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trust/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trustee/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trustee/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,38 +17,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/home.html">
+        <entry file="file://$PROJECT_DIR$/trustee/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="137" column="43" lean-forward="true" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#center#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#1;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#p#3;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#center#0;n#div#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#center#0;n#div#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#u#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#1;n#u#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,22 +52,22 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/static_storage/__init.py__.py" />
         <option value="$PROJECT_DIR$/static_storage/__init__.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/Onlinequiz.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/aboutus.html" />
-        <option value="$PROJECT_DIR$/Trust/settings.py" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/Madrasa.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/contact.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/donate.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/uqaab.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/leadership.html" />
-        <option value="$PROJECT_DIR$/trustee/views.py" />
         <option value="$PROJECT_DIR$/trustee/urls.py" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/Faculty.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/supportteam.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/tution.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/base.html" />
         <option value="$PROJECT_DIR$/trustee/templates/trustee/home.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Trust/settings.py" />
+        <option value="$PROJECT_DIR$/trustee/views.py" />
       </list>
     </option>
   </component>
@@ -120,19 +98,6 @@
             <path>
               <item name="Trust" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trust" type="462c0819:PsiDirectoryNode" />
-              <item name="trustee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trust" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trust" type="462c0819:PsiDirectoryNode" />
-              <item name="trustee" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trust" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trust" type="462c0819:PsiDirectoryNode" />
-              <item name="trustee" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="trustee" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -186,7 +151,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27131784" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30852714" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -261,13 +226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/Onlinequiz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -331,13 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trust/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -351,16 +302,6 @@
             <element signature="n#style#0;n#i#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#p#2;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trustee/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -454,7 +395,7 @@
     <entry file="file://$PROJECT_DIR$/trustee/templates/trustee/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="137" column="43" lean-forward="true" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
+          <caret line="137" column="43" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -483,6 +424,30 @@
             <element signature="n#style#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#u#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#u#0;n#p#6;n#div#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trust/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trustee/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
