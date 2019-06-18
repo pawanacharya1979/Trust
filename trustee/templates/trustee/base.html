@@ -13,6 +13,9 @@
            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css">
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
            <link media="screen,projection"/>
+          {%load static %}
+          <link rel = "icon" href= "{% static "images/logo.PNG" %}"
+        type = "image/x-icon">
 
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <style>
@@ -203,7 +206,7 @@ display:inline;
 }
       </style>
 
-    <title>{% block title %}PATS{% endblock %}</title>
+    <title>{% block title %}Parvaz Academy Tutorial Service{% endblock %}</title>
   </head>
 <body>
 <div class="main-container">
@@ -228,6 +231,7 @@ display:inline;
             <li><a href="{% url 'about' %}">About Us</a></li>
              <li><a href="{% url 'tution' %}">Tution For 11th and 12th class</a></li>
              <li><a href="{% url 'leadership' %}">Leadership Team</a></li>
+             <li><a href="{% url 'faculty' %}">Our Faculty</a></li>
              <li><a href="{% url 'support' %}">Our Support Team</a></li>
              <li><a href="{% url 'uqaab' %}">About Uqaab Charitable Trust</a></li>
              <li><a href="{% url 'quiz' %}">Online Quiz</a></li>
@@ -239,6 +243,10 @@ display:inline;
 		<li>
 				<a href="{% url 'leadership' %}" class="secondary-content">
                     <span class="title">Leadership Team</span></a>
+		</li>
+        <li>
+				<a href="{% url 'faculty' %}" class="secondary-content">
+                     <span class="title">Our Faculty</span></a>
 		</li>
 		<li>
 				<a href="{% url 'support' %}" class="secondary-content">

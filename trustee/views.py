@@ -78,6 +78,9 @@ def leadership(request):
 def support(request):
     return render(request,'trustee/supportteam.html')
 
+def faculty(request):
+    return render(request,'trustee/Faculty.html')
+
 
 def donate(request):
     return render(request,'trustee/donate.html')

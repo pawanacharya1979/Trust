@@ -12,6 +12,7 @@ urlpatterns = [
     url(r'^Uqaab-trust/$', views.uqaab, name='uqaab'),
     url(r'^leadership-team/$', views.leadership, name='leadership'),
     url(r'^support-team/$', views.support, name='support'),
+    url(r'^faculty-team/$', views.faculty, name='faculty'),
     url(r'^Uqaab-trust-donate/$', views.donate, name='donate'),
     url(r'^Madrasa-Parvaz-ul-Uloom/$', views.madrasa, name='madrasa'),
 ]

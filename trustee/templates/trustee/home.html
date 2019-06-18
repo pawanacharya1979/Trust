@@ -33,7 +33,48 @@
               color: Green;
               font-style:italic;
             }
+.btn {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 15px;
+ /* padding: 5px 10px; */
 
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
 
  @media only screen and (max-device-width: 480px) {
 .cs-texts h2 {
@@ -92,11 +133,18 @@ padding-left:30px;
          <p>Discover your true potential to know more efficently.Clear your doubts<br>
          and concepts by commmanding your subjects and topics so that you can<br>
          not only score good marks but also learn deeply.</p>
+           <a class="waves-effect waves-light btn" style="margin-left:30px;" href="{% url 'contact' %}">
+               <i class="material-icons" style="color:whitesmoke;">call</i>
+            +91 9986468619 | +91 9353568409
+           </a>
+
    </div></div>
     <a class="carousel-item" ><img src="https://static.pexels.com/photos/267885/pexels-photo-267885.jpeg" height="500px"></a>
+    <a class="carousel-item" ><img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/624_351/images/live/p0/6p/r6/p06pr6yj.jpg"height="500px"></a>
     <a class="carousel-item" ><img src="https://www.mdc.edu/virtual/img/students-in-summer.png"height="500px"></a>
     <a class="carousel-item" ><img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/static/images/top-home-bg-new.jpg"height="500px"></a>
     <a class="carousel-item" ><img src="https://www.curry.edu/assets/Images/Homepage/About/curry-fund-1440-lg.jpg"height="500px"></a>
+    <a class="carousel-item" ><img src="http://llfamilies.com/uploaded/articles/581-1147.jpg"height="500px"></a>
   </div>
 
 
@@ -114,7 +162,7 @@ padding-left:30px;
          <center>
               <i class="large material-icons" style="color:red;">mode_edit</i>
              <span class="card-title" style="font-size:20px;color:orange;"><b>Periodic Test</b></span>
-         </center>      <p>We at PATS make sure our students are getting proper teching.So we conduct periodic test either offline and online(coming soon).</p>
+         </center>      <p>We at PATS make sure our students get proper teaching.So we conduct periodic test either offline and online(coming soon).</p>
         </div>
       </div></div>
              <div class="col s4">
@@ -241,7 +289,7 @@ padding-left:30px;
                  </div>
                 <div class="col s3">
                     <h4 style="font-size:18px;font-style:italic; color:brown;"> 11th - 12th </h4>
-                    <p style="font-size:12px;"><b>SCIENCE & ARTS,COMMERCE</b></p>
+                    <p style="font-size:12px;"><b>SCIENCE, ARTS & COMMERCE</b></p>
                     <p style="font-size:10px;">All subjects will be covered for the students belonging to class 11th to 12th </p>
                 </div></div>
      <div class="col s6">
