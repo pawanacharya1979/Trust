@@ -16,13 +16,20 @@ def home(request):
             email = form.cleaned_data.get('Email')
             subject = form.cleaned_data.get('subject')
             message = form.cleaned_data.get('Message')
-            body = {'Name': name, 'Email': email,'subject': subject, 'Message': message},
+            # body = {'Name': name, 'Email': email,'subject': subject, 'Message': message},
+            table_string = '<h2>Parvaz Academy Tutorial Service</h2>' \
+                           '<p>The following details are from Home Page:</p>  ' \
+                           '<table border="1" id="email" class="table table-striped table-bordered">' \
+                           '<thead><th>Name</th><th>Email</th><th>Subject</th><th>Message</th></thead>'
+            record = '<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>' % (name, email, subject, message)
+            table_string = table_string + record
 
             email = EmailMessage(
-                'Contact From',
-                str(body),
+                'EmailUs Form',
+                table_string,
                 to=['parvaaz.academy@gmail.com']
             )
+            email.content_subtype = "html"  # Main content is now text/html
             email.send()
             messages.success(request, 'Thank You! for contacting us, we will get back to you soon.')
             return HttpResponseRedirect('/')
@@ -40,13 +47,20 @@ def contact(request):
             email = form.cleaned_data.get('Email')
             phone = form.cleaned_data.get('Phone')
             message = form.cleaned_data.get('Message')
-            body = {'Name': name, 'Email': email,'Phone': phone, 'Message': message},
+            # body = {'Name': name, 'Email': email,'Phone': phone, 'Message': message},
+            table_string = '<h2>Parvaz Academy Tutorial Service</h2>' \
+                           '<p>The following details is from Contact Page:</p>  ' \
+                           '<table border="1" id="email" class="table table-striped table-bordered">' \
+                           '<thead><th>Name</th><th>Email</th><th>Phone</th><th>Message</th></thead>'
+            record = '<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>' % (name, email, phone, message)
+            table_string = table_string + record
 
             email = EmailMessage(
-                'Contact From',
-                str(body),
+                'Contact Form',
+                table_string,
                 to=['parvaaz.academy@gmail.com',]
             )
+            email.content_subtype = "html"  # Main content is now text/html
             email.send()
             messages.success(request, 'Thank You! for contacting us, we will get back to you soon.')
             return HttpResponseRedirect('/contact-us/')
